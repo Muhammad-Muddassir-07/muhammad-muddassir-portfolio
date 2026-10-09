@@ -1,7 +1,11 @@
+import xorsolImage from "../assets/images/xorsol.png";
+import pakgaariImage from "../assets/images/pakgaari.png";
+import shahRugsImage from "../assets/images/shahrugs.png";
+
 const projects = [
     {
         title: "XORSOL",
-        image: "../src/assets/images/xorsol.png",
+        image: xorsolImage,
         category: "Digital Agency Website",
         description:
             "A digital agency website presenting web development, design and digital services through a modern responsive interface.",
@@ -11,7 +15,7 @@ const projects = [
 
     {
         title: "PakGaari",
-        image: "../src/assets/images/pakgaari.png",
+        image: pakgaariImage,
         category: "Automotive Marketplace",
         description:
             "A vehicle marketplace platform designed around buying, selling and renting vehicles with a practical marketplace experience.",
@@ -21,7 +25,7 @@ const projects = [
 
     {
         title: "Shah Rugs",
-        image: "../src/assets/images/shahrugs.png",
+        image: shahRugsImage,
         category: "E-Commerce",
         description:
             "An e-commerce experience for a rugs and home decor business, focused on presenting products through a clean and premium interface.",
